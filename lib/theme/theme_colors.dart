@@ -35,3 +35,6 @@ const colorSubFont = Color(0xff979797);
 
 const colorButtonNotSelectedFont = Color(0xFF777777);
 const colorButtonNotSelectedBackground = Color(0xFFFAFAFA);
+
+const colorShadow = Color(0xFFD9D9D9);
+const colorDetailInfo = Color(0xFFA9A9A9);

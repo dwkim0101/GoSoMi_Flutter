@@ -1,4 +1,5 @@
 import 'package:ai_lawyer_gosomi_flutter/screens/home_screen.dart';
+import 'package:ai_lawyer_gosomi_flutter/screens/info_screen.dart';
 import 'package:ai_lawyer_gosomi_flutter/theme/theme_colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
@@ -144,7 +145,7 @@ class _BottomBarState extends State<BottomBar> {
           children: const [
             HomeScreen(),
             Center(child: Text('Star')),
-            Center(child: Text('Style')),
+            InfoScreen(),
             Center(child: Text('Profile')),
           ],
         ),
